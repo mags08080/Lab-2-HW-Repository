@@ -42,6 +42,6 @@ print('My', item3, 'is delicious and it cost me $',item3Cost)
 #printing subTotal, taxAmount, fee, and grandTotal on 4 separate lines
 print('The subtotal is $', subTotal)
 print(f"The tax is $"f'{taxAmount: .2f}')
-print('The shipping fee is $', fee)
+print('The fee is $', fee)
 #last line using variable myName to print the grandTotal
 print(f'{myName}',"paid the final bill of $"f'{grandTotal: .2f}')
